@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section#conteudo {
+    height: 1000px;
+    margin: auto;
+}
+
+iframe#frame-spec {
+    width: 380px;
+    height: 280px;
+    border: none;
+    /*Perguntar porque não funciona*/
+    overflow: hidden;
+}
+/*Perguntar porque não funciona*/
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
