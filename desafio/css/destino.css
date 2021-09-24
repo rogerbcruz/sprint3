@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Inter:wght@100;400&display=swap');
+
+h1#titulo {
+    font-size: 15pt;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Dosis, sans-serif;
+    margin: 3.5% 0px 1.9%;
+}
+
+/*div externa para inclusão da cor de fundo*/
+.div-azul {
+    width: 1349px;
+    margin: 0px auto 0px auto;
+    background: #DDF2F2;
+}
+
+/* div externa sem cor*/
+.div-branca {
+    width: 1349px;
+    margin: 0px auto 0px auto;
+}
+
+/*div interna com alinhamentos lateral auto*/
+.div-interna {
+    width: 794px;
+    margin: 0px auto 0px;
+    padding: 35px 0px;
+}
+
+.cabecalho-interna {
+    width: 794px;
+    margin: 0px auto 0px;
+    padding: 35px 0px;
+}
+
+.rodape-interna {
+    width: 794px;
+    height: 0px;
+    margin: 0px auto 0px;
+    padding: 35px 0px;
+}
+
+.rodape-interna div#contato {
+    margin: -22px 0px 0px 0px
+}
+
+/*Formatação do parágrafo à direita*/
+.p-direita {
+    position: relative;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    left: 57px;
+    top: 27px;
+    font-size: 13.3pt;
+}
+
+/*Formatação do parágrafo à esquerda*/
+.p-esquerda {
+    position: relative;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+    top: 27px;
+    font-size: 13.3pt;
+}
+
+/*Formatação do link saiba mais...*/
+.saiba-direita {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-size: 9pt;
+    color: #000000;
+    font-weight: bolder;
+    position: relative;
+    text-align: right;
+    top: 42px;
+}
+
+.saiba-esquerda {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    font-size: 9pt;
+    color: #000000;
+    font-weight: bolder;
+    position: relative;
+    text-align: right;
+    top: 42px;
+    right: 52px;
+}
+
+/*Posição das imagens à direita*/
+footer img {
+    position: relative;
+    left: 16%;
+    top: -18px;
+}

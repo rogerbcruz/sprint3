@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2 Sprint 3</title>
+
+    <link rel="stylesheet" href="_css/reset.css">
+    <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/exercicio2.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+
+    <script type="text/javascript">
+        $("#cCpf").mask("000.000.000-00")
+        $("#cCel").mask("(00) 0.0000-0000");
+        $("#cTel").mask("(00) 0000-0000");
+    </script>
+</head>
+
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Exercicio 1</a></li>
+                    <li><a href="exercicio2.html">Exercício 2</a></li>
+                    <li><a href="exercicio3.html">Exercício 3</a></li>
+                    <li><a href="exercicio4.html">Exercício 4</a></li>
+                    <li><a href="exercicio5.html">Exercício 5</a></li>
+                    <li><a href="login.html" target="_blank">login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <form action="" id="usuario">
+            <p><label for="cNome" id="top">Nome:</label><input type="text" name="tNome" id="cNome" placeholder="Nome completo" required></p>
+            <p><label for="cEmail">Email:</label><input type="email" name="tEmail" id="cEmail" required placeholder="nick@dominio.com..."></p>
+            <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" placeholder="Digite uma senha" required></p>
+            <p><label for="cCpf">CPF:</label><input type="text" name="tCpf" id="cCpf" maxlength="11"
+                    placeholder="Apenas dígitos" required></p>
+            <p><label for="cTel">Telefone:</label><input type="text" name="tTel" id="cTel" maxlength="10"
+                    placeholder="(xx) xxxx-xxxx"></p>
+            <p><label for="cCel">Celular:</label><input type="text" name="tCel" id="cCel" maxlength="11"
+                    placeholder="(xx) xxxxx-xxxx"></p>
+            <input type="submit" name="enviar" id="enviar">
+        </form>
+
+    </div>
+</body>
+
+</html>

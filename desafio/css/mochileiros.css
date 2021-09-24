@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Inter:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+.interface {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+
+h1#titulo {
+    margin: 6.5% 0px;
+}
+
+.icone1 {
+    display: inline-block;
+}
+
+.icone2 {
+    display: inline-block;
+    margin-left: 167px;
+}
+
+.icone3 {
+    display: inline-block;
+    margin-left: 167px;
+}
+
+.depoimento {
+    width: 186px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+/*=============================================================================
+Perguntar o que ocorre*/
+.icone3 p {
+    display: inline-block;
+    padding: 23px 0px 0px 0px;
+}
+
+/*=============================================================================*/
+
+div#conheca-o-mundo {
+    width: 1349px;
+    padding: 55px 0px;
+}
+
+div#conheca-o-mundo h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 49px;
+    position: absolute;
+    left: 26.6%;
+    top: 770px;
+}
+
+/*Estilo formulário*/
+
+form{
+    width: 750px;
+    margin: 0px auto;
+}
+
+input, textarea, button{
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    resize: none;
+    border-color: #22A0A0;
+}
+
+input#nome{
+    height: 45px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+#upload{
+    background: #70A3A3;
+}
+
+input#comentario, input#nome{
+    background: #DAF5F5;
+}
+
+div#btn-upload{
+    display: inline-block;
+    margin-left: 296px;
+}
+
+/* Esconde o input */
+input[type='file'] {
+    display: none
+}
+
+/* Aparência do input file*/
+  label {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    background-color: #70A3A3;
+    cursor: pointer;
+    margin-left: 24px;
+    padding: 9px 40px;
+    border-radius: 10px;
+    border-color: #22A0A0;
+  }
+
+  #enviar {
+    font-family: 'Dosis';
+    height: 60px;
+    width: 232px;
+    margin-top: 30px;
+    margin-left: 522px;
+    margin-bottom: 77px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #155050;
+  }
+  #comentario{
+    display: block;
+    width: 722px;
+    background: #DAF5F5;
+    padding: 15px;
+  }

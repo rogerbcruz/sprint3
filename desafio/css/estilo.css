@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Inter:wght@100;400&display=swap');
+
+
+/*Globais*/
+h4.saiba-mais a {
+    display: block;
+    font-family: 'Dosis', sans-serif;
+    font-size: 9.5pt;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000000;
+    text-align: right;
+}
+
+nav#menu a {
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 15pt;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 9.5pt;
+    padding: 10px 0px;
+    color: #000000;
+}
+
+h2.legenda-foto {
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 3.5%;
+}
+
+
+h2.legenda-foto-menores {
+    font-family: 'inter', sans-serif;
+    display: block;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 5%;
+}
+
+/*=================================================================*/
+
+/*cabeçalho*/
+
+header#cabecalho {
+    background-color: #22A0A0;
+    height: 200px;
+    width: auto;
+}
+
+
+/*Links de navegação*/
+nav#menu {
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    position: absolute;
+    top: 116px;
+    left: 65%;
+}
+
+nav#menu ul {
+    list-style: none;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding-left: 13px;
+    transition: background-color 1s;
+}
+
+/*Campo busca*/
+form#busca {
+    position: absolute;
+    left: 39%;
+    top: 113px;
+    width: 200px;
+}
+
+form#busca [type=search] {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 240px;
+}
+
+img#lupa {
+    position: absolute;
+    left: 205px;
+}
+
+/*Imagem logo*/
+img#logo {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+}
+
+/*==========================================================*/
+
+/*interface*/
+
+div#interface {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+
+.div-interna{
+    width: 900px;
+    margin: 0px auto 0px;
+    padding: 35px 0px;
+    }
+
+.titulo {
+    font-size: 15pt;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin: 3.5% 0px;
+}
+
+div.div-direita {
+    margin-top: 3.5%;
+    display: inline-block;
+    width: 214px;
+    float: right;
+}
+
+div.imagem-menor {
+    display: block;
+    width: 214px;
+    height: 158px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-bottom: 3.5%;
+}
+
+div.div-esquerda {
+    margin-top: 3.5%;
+    display: inline-block;
+    width: 214px;
+    float: left;
+}
+
+/*==========================================================*/
+
+/*section*/
+
+section a {
+    text-decoration: none;
+    color: #000000;
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #22A0A0;
+}
+
+section#corpo {
+    width: 477px;
+    display: block;
+    float: left;
+    margin-bottom: 10%;
+    padding-right: 13%;
+    border-right: 1px solid #22A0A0;
+}
+
+hgroup#bolivia img#img-bolivia {
+    display: block;
+    float: left;
+    margin: 0px auto;
+}
+
+section#corpo img#img-equador {
+    display: block;
+    float: right;
+    margin: 0px auto;
+}
+
+h3.informacao-rapida {
+    font-weight: bolder;
+}
+
+/*============================================================*/
+
+/*aside*/
+
+aside#lateral {
+    display: block;
+    width: 283px;
+    float: right;
+    padding-left: 2%;
+}
+
+aside a:hover {
+    text-decoration: underline;
+    color: #22A0A0;
+}
+
+/*============================================================*/
+
+/*footer*/
+
+footer#rodape {
+    background-color: #22A0A0;
+    clear: both;
+    height: 125px;
+    margin-top: 1%;
+}
+
+div#contato {
+    margin-top: 1.5%;
+    margin-left: 17%;
+    display: inline-block;
+    width: 200px;
+}
+
+footer#rodape h1 {
+    font-family: 'inter', sans-serif;
+    font-size: 9pt;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+
+footer p {
+    font-family: 'Inter', sans-serif;
+    margin: 0% 0% 0% 18%;
+    clear: both;
+    line-height: 170%;
+    color: #ffffff;
+}
+
+footer img {
+    margin-left: 45%;
+    margin-top: -5%;
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Acerto de posicionamento do menu com novo link DESAFIO*/
+
+nav#menu ul{
+    left: 330px;
+}
+
+form#usuario {
+    border: 1px solid black; 
+    box-shadow :5px 8px 4px black;
+    width: 450px;
+    height: auto;
+    margin: 50px auto 0px auto;
+}
+
+form#usuario label{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    width: 60px;
+    padding: 13px 0px;
+}
+
+form#usuario p{
+    font-size: 12pt;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form#usuario input#enviar, form#usuario input#entrar{
+    width: 130px;
+    display: block;
+    margin: 22px auto;
+}
+
+form#usuario label#top{
+    margin-top: 30px;
+}
+header#cabecalho nav#menu h1
+{
+    font-size: 65pt;
+    margin: 0;
+    padding-top: 35px;
+    color: #B5A77F;
+}
